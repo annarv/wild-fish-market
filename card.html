@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Card</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-grid-custom.css" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css" crossorigin="anonymous">
+</head>
+<body>
+
+    <header>
+        <div class="container-fluid">
+            <div class="row justify-content-between">
+                <div class="col-1">
+                    <div class="search__block">
+                        <div class="search__icon"></div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <nav class="header__nav header__nav_left">
+                        <ul>
+                            <li><a href="about.html" title="О компании">О компании</a></li>
+                            <li><a href="catalog.html" title="Каталог">Каталог</a></li>
+                            <li><a href="news.html" title="Новости">Новости</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-2">
+                    <div class="logo__block">
+                        <a href="/" title="WILD_LIFE"><img src="img/logo.png" alt="Wild-life" /></a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <nav class="header__nav header__nav_right">
+                        <ul>
+                            <li><a href="delivery-and-pay.html" title="Доставка">Доставка</a></li>
+                            <li><a href="contacts.html" title="Контакты">Контакты</a></li>
+                            <li><a href="#" title="ЕЩЕ РАЗДЕЛ">ЕЩЕ РАЗДЕЛ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-1">
+                    <div class="cart__block">
+                        <a href="card.html" title="Перейти в корзину"></a>
+                        <div class="cart__icon"></div>
+                        <div class="cart__count"><span>0</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="card">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="card__slider">
+                        <div class="back-link"><a href="#" title="Назад">Назад</a></div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card__info">
+                        <div class="card__name">Щука <span class="card__status in-stock">В налиции</span></div>
+                        <div class="card__description">
+                            <div class="card__description-title">Описание:</div>
+                            <div class="card__description-text">Рыба семейства щуковых. Распространена в пресных водах Евразии и Северной Америки. Тело торпедовидное, стреловидная форма, голова большая, пасть широкая. Мясо этой рыбы костистое с большим содержанием белка.</div>
+                            <div class="card__characteristic">
+                                <table>
+                                    <tr>
+                                        <th>Белки:</th>
+                                        <td>24 г.</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Жиры:</th>
+                                        <td>9 г.</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Калорийность:</th>
+                                        <td>177 кКал</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Вес:</th>
+                                        <td>0.2-0.3 кг.</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Темпаратура хранения:</th>
+                                        <td>-18°C</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Срок годности:</th>
+                                        <td>9 месяцев</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="card__weight">
+                                <div class="card__weight-title">Выберите вес:</div>
+                                <div class="card__weight-value">
+                                    <select>
+                                        <option>1000 гр</option>
+                                        <option>2000 гр</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="card__to-cart">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <div class="card__price">
+                                            <div class="card__price-title">Цена:</div>
+                                            <div class="card__price-value">950 руб.₽</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="card__price">
+                                            <input type="number" value="">
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <button class="button__to-cart">В корзину</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="recommendations">
+        <div class="recommendations__title">Рекомендации</div>
+        <div class="recommendations__slider">
+            <div class="row">
+                <div class="col-3">
+                    <div class="product__block">
+                        <div class="product__img"><img src="img/products/demo_01.png" alt="Муксун Х/К" /></div>
+                        <div class="product__description">
+                            <div class="product__name">Муксун Х/К</div>
+                            <div class="product__info">
+                                <table>
+                                    <tr>
+                                        <th>Белки</th>
+                                        <th>Жиры</th>
+                                        <th>Калорийность</th>
+                                    </tr>
+                                    <tr>
+                                        <td>24 г.</td>
+                                        <td>9 г.</td>
+                                        <td>177 кКал</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"><span class="product__price">от 950 руб</span></div>
+                                <div class="col-6"><button class="button__to-cart">В корзину</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product__block">
+                        <div class="product__img"><img src="img/products/demo_02.png" alt="Муксун Х/К" /></div>
+                        <div class="product__description">
+                            <div class="product__name">Муксун Х/К</div>
+                            <div class="product__info">
+                                <table>
+                                    <tr>
+                                        <th>Белки</th>
+                                        <th>Жиры</th>
+                                        <th>Калорийность</th>
+                                    </tr>
+                                    <tr>
+                                        <td>24 г.</td>
+                                        <td>9 г.</td>
+                                        <td>177 кКал</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"><span class="product__price">от 950 руб</span></div>
+                                <div class="col-6"><button class="button__to-cart">В корзину</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product__block">
+                        <div class="product__img"><img src="img/products/demo_03.png" alt="Муксун Х/К" /></div>
+                        <div class="product__description">
+                            <div class="product__name">Муксун Х/К</div>
+                            <div class="product__info">
+                                <table>
+                                    <tr>
+                                        <th>Белки</th>
+                                        <th>Жиры</th>
+                                        <th>Калорийность</th>
+                                    </tr>
+                                    <tr>
+                                        <td>24 г.</td>
+                                        <td>9 г.</td>
+                                        <td>177 кКал</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"><span class="product__price">от 950 руб</span></div>
+                                <div class="col-6"><button class="button__to-cart">В корзину</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product__block">
+                        <div class="product__img"><img src="img/products/demo_04.png" alt="Муксун Х/К" /></div>
+                        <div class="product__description">
+                            <div class="product__name">Муксун Х/К</div>
+                            <div class="product__info">
+                                <table>
+                                    <tr>
+                                        <th>Белки</th>
+                                        <th>Жиры</th>
+                                        <th>Калорийность</th>
+                                    </tr>
+                                    <tr>
+                                        <td>24 г.</td>
+                                        <td>9 г.</td>
+                                        <td>177 кКал</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"><span class="product__price">от 950 руб</span></div>
+                                <div class="col-6"><button class="button__to-cart">В корзину</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product__block">
+                        <div class="product__img"><img src="img/products/demo_05.png" alt="Муксун Х/К" /></div>
+                        <div class="product__description">
+                            <div class="product__name">Муксун Х/К</div>
+                            <div class="product__info">
+                                <table>
+                                    <tr>
+                                        <th>Белки</th>
+                                        <th>Жиры</th>
+                                        <th>Калорийность</th>
+                                    </tr>
+                                    <tr>
+                                        <td>24 г.</td>
+                                        <td>9 г.</td>
+                                        <td>177 кКал</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"><span class="product__price">от 950 руб</span></div>
+                                <div class="col-6"><button class="button__to-cart">В корзину</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product__block">
+                        <div class="product__img"><img src="img/products/demo_06.png" alt="Муксун Х/К" /></div>
+                        <div class="product__description">
+                            <div class="product__name">Муксун Х/К</div>
+                            <div class="product__info">
+                                <table>
+                                    <tr>
+                                        <th>Белки</th>
+                                        <th>Жиры</th>
+                                        <th>Калорийность</th>
+                                    </tr>
+                                    <tr>
+                                        <td>24 г.</td>
+                                        <td>9 г.</td>
+                                        <td>177 кКал</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"><span class="product__price">от 950 руб</span></div>
+                                <div class="col-6"><button class="button__to-cart">В корзину</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product__block">
+                        <div class="product__img"><img src="img/products/demo_07.png" alt="Муксун Х/К" /></div>
+                        <div class="product__description">
+                            <div class="product__name">Муксун Х/К</div>
+                            <div class="product__info">
+                                <table>
+                                    <tr>
+                                        <th>Белки</th>
+                                        <th>Жиры</th>
+                                        <th>Калорийность</th>
+                                    </tr>
+                                    <tr>
+                                        <td>24 г.</td>
+                                        <td>9 г.</td>
+                                        <td>177 кКал</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"><span class="product__price">от 950 руб</span></div>
+                                <div class="col-6"><button class="button__to-cart">В корзину</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product__block">
+                        <div class="product__img"><img src="img/products/demo_08.png" alt="Муксун Х/К" /></div>
+                        <div class="product__description">
+                            <div class="product__name">Муксун Х/К</div>
+                            <div class="product__info">
+                                <table>
+                                    <tr>
+                                        <th>Белки</th>
+                                        <th>Жиры</th>
+                                        <th>Калорийность</th>
+                                    </tr>
+                                    <tr>
+                                        <td>24 г.</td>
+                                        <td>9 г.</td>
+                                        <td>177 кКал</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"><span class="product__price">от 950 руб</span></div>
+                                <div class="col-6"><button class="button__to-cart">В корзину</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product__block">
+                        <div class="product__img"><img src="img/products/demo_01.png" alt="Муксун Х/К" /></div>
+                        <div class="product__description">
+                            <div class="product__name">Муксун Х/К</div>
+                            <div class="product__info">
+                                <table>
+                                    <tr>
+                                        <th>Белки</th>
+                                        <th>Жиры</th>
+                                        <th>Калорийность</th>
+                                    </tr>
+                                    <tr>
+                                        <td>24 г.</td>
+                                        <td>9 г.</td>
+                                        <td>177 кКал</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"><span class="product__price">от 950 руб</span></div>
+                                <div class="col-6"><button class="button__to-cart">В корзину</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product__block">
+                        <div class="product__img"><img src="img/products/demo_02.png" alt="Муксун Х/К" /></div>
+                        <div class="product__description">
+                            <div class="product__name">Муксун Х/К</div>
+                            <div class="product__info">
+                                <table>
+                                    <tr>
+                                        <th>Белки</th>
+                                        <th>Жиры</th>
+                                        <th>Калорийность</th>
+                                    </tr>
+                                    <tr>
+                                        <td>24 г.</td>
+                                        <td>9 г.</td>
+                                        <td>177 кКал</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"><span class="product__price">от 950 руб</span></div>
+                                <div class="col-6"><button class="button__to-cart">В корзину</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product__block">
+                        <div class="product__img"><img src="img/products/demo_03.png" alt="Муксун Х/К" /></div>
+                        <div class="product__description">
+                            <div class="product__name">Муксун Х/К</div>
+                            <div class="product__info">
+                                <table>
+                                    <tr>
+                                        <th>Белки</th>
+                                        <th>Жиры</th>
+                                        <th>Калорийность</th>
+                                    </tr>
+                                    <tr>
+                                        <td>24 г.</td>
+                                        <td>9 г.</td>
+                                        <td>177 кКал</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"><span class="product__price">от 950 руб</span></div>
+                                <div class="col-6"><button class="button__to-cart">В корзину</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product__block">
+                        <div class="product__img"><img src="img/products/demo_04.png" alt="Муксун Х/К" /></div>
+                        <div class="product__description">
+                            <div class="product__name">Муксун Х/К</div>
+                            <div class="product__info">
+                                <table>
+                                    <tr>
+                                        <th>Белки</th>
+                                        <th>Жиры</th>
+                                        <th>Калорийность</th>
+                                    </tr>
+                                    <tr>
+                                        <td>24 г.</td>
+                                        <td>9 г.</td>
+                                        <td>177 кКал</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"><span class="product__price">от 950 руб</span></div>
+                                <div class="col-6"><button class="button__to-cart">В корзину</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product__block">
+                        <div class="product__img"><img src="img/products/demo_05.png" alt="Муксун Х/К" /></div>
+                        <div class="product__description">
+                            <div class="product__name">Муксун Х/К</div>
+                            <div class="product__info">
+                                <table>
+                                    <tr>
+                                        <th>Белки</th>
+                                        <th>Жиры</th>
+                                        <th>Калорийность</th>
+                                    </tr>
+                                    <tr>
+                                        <td>24 г.</td>
+                                        <td>9 г.</td>
+                                        <td>177 кКал</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"><span class="product__price">от 950 руб</span></div>
+                                <div class="col-6"><button class="button__to-cart">В корзину</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product__block">
+                        <div class="product__img"><img src="img/products/demo_06.png" alt="Муксун Х/К" /></div>
+                        <div class="product__description">
+                            <div class="product__name">Муксун Х/К</div>
+                            <div class="product__info">
+                                <table>
+                                    <tr>
+                                        <th>Белки</th>
+                                        <th>Жиры</th>
+                                        <th>Калорийность</th>
+                                    </tr>
+                                    <tr>
+                                        <td>24 г.</td>
+                                        <td>9 г.</td>
+                                        <td>177 кКал</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"><span class="product__price">от 950 руб</span></div>
+                                <div class="col-6"><button class="button__to-cart">В корзину</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="product__block">
+                        <div class="product__img"><img src="img/products/demo_07.png" alt="Муксун Х/К" /></div>
+                        <div class="product__description">
+                            <div class="product__name">Муксун Х/К</div>
+                            <div class="product__info">
+                                <table>
+                                    <tr>
+                                        <th>Белки</th>
+                                        <th>Жиры</th>
+                                        <th>Калорийность</th>
+                                    </tr>
+                                    <tr>
+                                        <td>24 г.</td>
+                                        <td>9 г.</td>
+                                        <td>177 кКал</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"><span class="product__price">от 950 руб</span></div>
+                                <div class="col-6"><button class="button__to-cart">В корзину</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages">
+        <div class="container">
+            <div class="section__title">Преимущества</div>
+            <div class="section__descriptions_white">Преимущества нашей компании</div>
+            <div class="row no-gutters">
+                <div class="col-3">
+                    <div class="advantage__block">
+                        <div class="advantage__icon"><img src="img/icons/map.png" alt="icon_map" /></div>
+                        <div class="advantage__description">Продукция проходит минимальный путь от отлова до продажи.</div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="advantage__block">
+                        <div class="advantage__icon"><img src="img/icons/reward.png" alt="icon_reward" /></div>
+                        <div class="advantage__description">Обеспечивается максимально высокое качество продукции.</div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="advantage__block">
+                        <div class="advantage__icon"><img src="img/icons/resize.png" alt="icon_resize"/></div>
+                        <div class="advantage__description">Возможность закупки крупных объемов рыбы.</div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="advantage__block">
+                        <div class="advantage__icon"><img src="img/icons/documents.png" alt="icon_documents"></div>
+                        <div class="advantage__description">Вся продукция имеет полный пакет сопроводительных документов.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 offset-6 ml-auto about__bg-grey">
+                    <div class="about__block">
+                        <div class="about__title">О компании</div>
+                        <div class="about__descriptions">Предлагаем ценнейшую промысловую рыбу, достойную царского стола.</div>
+                        <div class="about__text"><p>ООО «МУКСУН» предлагает ценнейшую промысловую рыбу, достойную царского стола. Мясо северной рыбы, выловленной нами в холодных водах дельты реки Лена, не подвержена заболеваниям, так как холод, является природным дезинфектором. После отлова рыбы, она замерзает при температуре окружающей среды в минус 30–40 градусов и складируется в специально выдолбленные в вечной мерзлоте морозильники или погреба. Тем самым, рыба не теряет вкусовых качеств качеств, сохраняя все полезные человеческому организму витамины и минералы, имеет сбалансированный состав.</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="address">
+        <iframe src="https://snazzymaps.com/embed/146557" width="100%" height="400px" style="border:none;"></iframe>
+        <div class="container-fluid">
+            <div class="address__block">
+                <div class="address__title">Адрес:</div>
+                <div class="address__info">Москва, Ижорская ул, д.3</div>
+
+                <div class="address__title">Телефон:</div>
+                <div class="address__info">+7 (495) 755-03-99</div>
+
+                <div class="address__title">Время работы:</div>
+                <div class="address__info">с 9:00 до 18:00</div>
+
+                <div class="address__button">
+                    <button class="btn">ОБРАТНАЯ СВЯЗЬ</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="footer__block">
+                <div class="row justify-content-between">
+                    <div class="col-1">
+                        <div class="footer__logo">Wild Life</div>
+                    </div>
+                    <div class="col-9">
+                        <nav class="footer__nav">
+                            <ul>
+                                <li><a href="#" title="О компании">О компании</a></li>
+                                <li><a href="#" title="Каталог">Каталог</a></li>
+                                <li><a href="#" title="Новости">Новости</a></li>
+                                <li><a href="#" title="Доставка">Доставка</a></li>
+                                <li><a href="#" title="Контакты">Контакты</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-2">
+                        <div class="footer__social">
+                            <a href="#" class="icon__soc facebook" title="facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="icon__soc vk" title="В контакте"><i class="fab fa-vk"></i></a>
+                            <a href="#" class="icon__soc odnoklassniki" title="Одноклассники"><i class="fab fa-odnoklassniki"></i></a>
+                            <a href="#" class="icon__soc instagram" title="instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        ©2018 ООО "Сахафиш"
+    </div>
+
+</body>
+</html>
