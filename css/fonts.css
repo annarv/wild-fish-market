@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&subset=cyrillic');
+
+@font-face {
+    font-family: 'Akrobat Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Akrobat Regular'), url('../fonts/Akrobat-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Akrobat SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Akrobat Bold'), url('../fonts/Akrobat-SemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Akrobat Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Akrobat Bold'), url('../fonts/Akrobat-Bold.woff') format('woff');
+}
+

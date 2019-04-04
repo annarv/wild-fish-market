@@ -1,0 +1,31 @@
+.advantages{
+    background: url("../../img/bg-texture.png") #373737;
+    padding: 85px 0;
+}
+.advantage__block{
+    padding: 0 40px;
+    height: 100%;
+}
+.advantages .col-3:first-child .advantage__block{
+    border-right: 1px dashed #7f7f7f;
+}
+.advantages .col-3:last-child .advantage__block{
+    border-left: 1px dashed #7f7f7f;
+}
+.section__descriptions_white{
+    font-family: "Akrobat Regular", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    margin-bottom: 85px;
+}
+.advantage__icon{
+    height: 78px;
+}
+.advantage__description{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+}

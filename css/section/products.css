@@ -1,0 +1,83 @@
+.products__list {
+    padding: 12px 28px 0 28px;
+    overflow: hidden;
+    max-width: 1106px;
+    margin: 0 auto;
+}
+.product__block{
+    width: 240px;
+    background: #ffffff;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(47, 63, 106, 0.08);
+}
+.product__img{
+
+}
+.product__description{
+    padding: 16px 18px 12px 18px;
+}
+.product__name{
+    font-family: "Akrobat Regular", sans-serif;
+    font-size: 20px;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.product__info{
+    margin-bottom: 10px;
+}
+.product__info table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.product__info th{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: normal;
+    color: #828283;
+    mix-blend-mode: normal;
+    width: 33%;
+    padding: 0 0 5px 0;
+}
+.product__info td{
+    font-size: 13px;
+    line-height: 23px;
+    color: #2E2E31;
+    border-top: 1px dashed #acb2c3;
+    border-bottom: 1px dashed #acb2c3;
+    padding: 5px 0;
+    font-weight: 500;
+}
+.product__price{
+    font-family: "Akrobat Regular", sans-serif;
+    font-size: 16px;
+    line-height: normal;
+}
+.button__to-cart{
+    background: #F04A4A;
+    border-radius: 3px;
+    color: #ffffff;
+    font-family: "Akrobat Regular", sans-serif;
+    font-size: 16px;
+    line-height: normal;
+    width: 100%;
+    padding: 6px 0;
+    border: 2px solid #F04A4A;
+
+    transition: all .4s;
+    -moz-transition: all .4s;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+}
+.button__to-cart:hover{
+    background: #ffffff;
+    border-radius: 3px;
+    color: #F04A4A;
+    border-color: #F04A4A;
+
+    transition: all .4s;
+    -moz-transition: all .4s;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+}

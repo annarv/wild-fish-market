@@ -1,0 +1,17 @@
+@import "fonts.css";
+@import "general.css";
+
+@import "layout/header.css";
+
+@import "section/styles-home.css";
+
+@import "section/sections.css";
+@import "section/products.css";
+@import "section/advantages.css";
+@import "section/about.css";
+@import "section/address.css";
+
+@import "layout/footer.css";
+
+
+@import "section/filter.css";

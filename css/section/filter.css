@@ -1,0 +1,44 @@
+.filter__block{
+    max-width: 1044px;
+    margin: 60px auto 0;
+}
+.filter__list{
+
+}
+.filter__item{
+    font-family: "Akrobat Regular", sans-serif;
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: 0.1em;
+    color: #7b7b7c;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 33px;
+}
+.filter__item:after {
+    content: '';
+    display: block;
+    width: 40px;
+    border: 1px solid #bdbdbe;
+    margin: 12px 0;
+}
+.filter__item.active{
+    color: #000000;
+}
+.filter__item.active:after{
+    border: 1px solid #f04a4a;
+}
+.filter__sort{
+    text-align: right;
+}
+.filter__sort-title{
+    display: inline-block;
+}
+.filter__sort-list{
+    display: inline-block;
+    text-align: left;
+}
+.filter__sort-list ul{
+    max-height: 20px;
+    overflow: hidden;
+}
